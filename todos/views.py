@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
-# Create your views here.
-def home(request):
-    return render(request, 'todos/home.html')
+def todo_list(request):
+    #nome = "Tomás"
+    #alunos= ["Ariel", "João", "Maria"]
+    return render(request, "todos/todo_list.html")
